@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf8"?>
+<define-class name="cylinder" inherit="Agent.xml">
+
+  <x3d>
+    <!--Reading the model you just created-->
+    <filename>cylinder.x3d</filename>
+  </x3d>
+
+</define-class>
+

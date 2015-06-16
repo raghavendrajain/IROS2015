@@ -1,0 +1,17 @@
+
+
+
+
+
+0.    place target close to the functional feature of t shape tool
+0.1   
+1. Get initial target position and target rotation.
+2. get initial tool position and tool rotation
+3. apply force on the tool at once. calculate the applied force and applied velocity for tapping.
+4. the target object gets manipulated.
+5. calculate the target velocity after impact. 
+5. calculate the tool velocity after impact.
+6. after 5 seconds of motoion, calculate, the target position, target rotation, target velocity, tool position, tool rotation, tool velocity total traversal time.
+
+
+LATER, for 5 discretized 

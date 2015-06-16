@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf8"?>
+<world name="myworld1">
+<gravity x="0.0" y="-9.8" z="0.0"/> 
+
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_1"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="-100.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+</instanciate>
+
+
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_2"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="-80.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+   <set-attr-value name="qw" value="0.99500417"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.09983342"/>  
+   <set-attr-value name="qz" value="0.0"/>  
+
+</instanciate>
+
+
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_3"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="-60.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+   <set-attr-value name="qw" value="0.98006658"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.19866933"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+</instanciate>
+
+
+ 
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_4"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="-40.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+    <set-attr-value name="qw" value=" 0.95533649"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.29552021"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+</instanciate>
+
+
+
+
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_5"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="-20.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+
+   <set-attr-value name="qw" value=" 0.92106099"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.38941834"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+ 
+</instanciate>
+
+
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_6"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="0.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+    <set-attr-value name="qw" value=" 0.87758256"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value=" 0.47942554"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+
+</instanciate>
+
+
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_9"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="15.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+   <set-attr-value name="qw" value="0.69670671"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.71735609"/>  
+   <set-attr-value name="qz" value="0.0"/>  
+
+</instanciate>
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_10"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="30.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+
+   <set-attr-value name="qw" value="0.62160997"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.78332691"/>  
+   <set-attr-value name="qz" value="0.0"/>  
+
+
+</instanciate>
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_11"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="50.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+  <set-attr-value name="qw" value="0.54030231"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.84147098"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+
+
+</instanciate>
+
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_12"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="70.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+  <set-attr-value name="qw" value="0.45359612"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.89120736"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+ 
+
+</instanciate>
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_13"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="90.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+  <set-attr-value name="qw" value=" 0.36235775"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.93203909"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+ 
+
+</instanciate>
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_14"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="110.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+  <set-attr-value name="qw" value="0.26749883"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.96355819"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+ 
+
+</instanciate>
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_15"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="130.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+  <set-attr-value name="qw" value="0.16996714"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.98544973"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+ 
+</instanciate>
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_16"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="150.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+  <set-attr-value name="qw" value="0.0707372"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value=" 0.99749499"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+
+</instanciate>
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_17"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="170.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+  <set-attr-value name="qw" value="0.0"/>  
+   <set-attr-value name="qx" value="1.0"/>  
+   <set-attr-value name="qy" value=" 0.0"/>  
+   <set-attr-value name="qz" value="1.0"/> 
+
+
+</instanciate>
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_18"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="190.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+   <set-attr-value name="qw" value="0.0"/>  
+   <set-attr-value name="qx" value="0.707"/>  
+   <set-attr-value name="qy" value=" 0.0"/>  
+   <set-attr-value name="qz" value="0.707"/> 
+
+</instanciate>
+
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_7"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="210.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+    <set-attr-value name="qw" value="0.82533561"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.56464247"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+
+</instanciate>
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_8"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  value="./ControllerSample_11.so"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="230.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="21.0"/>
+
+   <set-attr-value name="qw" value="0.76484219"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.64421769"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+</instanciate> 
+
+<!-- 
+
+ <worldParam erp="0.5" cfm="1e-8" autostep="true" quickstep="false" stepsize="0.01"/>  
+  <collisionParam mu="0.3" mu2="0.02" slip1="0.01" slip2="0.01"  
+                  soft_erp="0.8" soft_cfm="0.00001" bounce="0.000" bounce_vel="0.000"/>  -->
+
+
+
+</world>
+
+
+
+
+
+
+
+

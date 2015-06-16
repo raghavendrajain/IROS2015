@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf8"?>
+<world name="myworld1">
+<gravity x="0.0" y="-9.8" z="0.0"/> 
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_1"/>  
+    <set-attr-value name="language" value="c++"/>    
+     <set-attr-value name="implementation"  
+                    value="./ControllerSample_1.so"/> 
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="0.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_1"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+    <set-attr-value name="x" value="-10.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+</instanciate>
+
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_2"/>  
+    <set-attr-value name="language" value="c++"/>   
+     <set-attr-value name="implementation"  
+                    value="./ControllerSample_2.so"/> 
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="50.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+
+<instanciate class="robot_box.xml">
+<set-attr-value name="name" value="box_2"/>  
+<set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="40.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+   <set-attr-value name="qw" value="0.99500417"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.09983342"/>  
+   <set-attr-value name="qz" value="0.0"/>  
+
+</instanciate> 
+
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_3"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_3.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="100.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_3"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="90.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+   <set-attr-value name="qw" value="0.98006658"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.19866933"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+</instanciate>
+
+
+ 
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_4"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_4.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="150.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_4"/>  
+
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="140.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+    <set-attr-value name="qw" value=" 0.95533649"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.29552021"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+</instanciate>
+
+
+
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_5"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_5.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="200.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+
+<instanciate class="robot_box.xml"> 
+
+   <set-attr-value name="name" value="box_5"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="190.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+
+   <set-attr-value name="qw" value=" 0.92106099"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.38941834"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+ 
+</instanciate>
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_6"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_6.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="250.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_6"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="240.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+    <set-attr-value name="qw" value=" 0.87758256"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value=" 0.47942554"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+
+</instanciate>
+
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_7"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_7.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="300.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_7"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="290.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+   <set-attr-value name="qw" value="0.69670671"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.71735609"/>  
+   <set-attr-value name="qz" value="0.0"/>  
+
+</instanciate>
+
+
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_8"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_8.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="350.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_8"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="340.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+
+   <set-attr-value name="qw" value="0.62160997"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.78332691"/>  
+   <set-attr-value name="qz" value="0.0"/>  
+
+
+</instanciate>
+
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_9"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_9.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="400.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_9"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="390.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+  <set-attr-value name="qw" value="0.54030231"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.84147098"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+
+
+</instanciate>
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_10"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_10.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="450.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+<instanciate class="robot_box.xml"> 
+
+   <set-attr-value name="name" value="box_10"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="440.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+  <set-attr-value name="qw" value="0.45359612"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.89120736"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+ 
+
+</instanciate>
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_11"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_11.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="500.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_11"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="490.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+  <set-attr-value name="qw" value=" 0.36235775"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.93203909"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+ 
+
+</instanciate>
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_12"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_12.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="550.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_12"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="540.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+  <set-attr-value name="qw" value="0.26749883"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.96355819"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+ 
+
+</instanciate>
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_13"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_13.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="600.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_13"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="590.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+  <set-attr-value name="qw" value="0.16996714"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.98544973"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+ 
+</instanciate>
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_14"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_14.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="700.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_14"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="690.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+  <set-attr-value name="qw" value="0.0707372"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value=" 0.99749499"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+</instanciate>
+
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_15"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_15.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="750.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_15"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="740.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+  <set-attr-value name="qw" value="0.0"/>  
+   <set-attr-value name="qx" value="1.0"/>  
+   <set-attr-value name="qy" value=" 0.0"/>  
+   <set-attr-value name="qz" value="1.0"/> 
+
+
+</instanciate>
+
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_16"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_16.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="800.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_16"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="790.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+   <set-attr-value name="qw" value="0.0"/>  
+   <set-attr-value name="qx" value="0.707"/>  
+   <set-attr-value name="qy" value=" 0.0"/>  
+   <set-attr-value name="qz" value="0.707"/> 
+
+</instanciate>
+
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_17"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_17.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="850.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+<instanciate class="robot_box.xml"> 
+
+   <set-attr-value name="name" value="box_17"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="840.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+    <set-attr-value name="qw" value="0.82533561"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.56464247"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+
+</instanciate>
+
+
+
+<instanciate class="T_Shape.xml">  
+    <set-attr-value name="name" value="TShapeTool_18"/>  
+    <set-attr-value name="language" value="c++"/>   
+    <set-attr-value name="implementation"  
+                    value="./ControllerSample_18.so"/>  
+    <set-attr-value name="dynamics" value="true"/>  
+    <set-attr-value name="mass" value="10.0"/>  
+    <set-attr-value name="collision" value="true"/>  
+
+    <set-attr-value name="x" value="900.0"/>
+    <set-attr-value name="y" value="1.0"/>
+    <set-attr-value name="z" value="40.0"/>
+</instanciate>
+
+<instanciate class="robot_box.xml">
+
+   <set-attr-value name="name" value="box_18"/>  
+   <set-attr-value name="mass" value="0.5"/>     
+   <set-attr-value name="dynamics" value="true"/>
+   <set-attr-value name="collision" value="true"/>
+   <set-attr-value name="x" value="890.0"/>
+   <set-attr-value name="y" value="1.0"/>
+   <set-attr-value name="z" value="22.0"/>
+
+   <set-attr-value name="qw" value="0.76484219"/>  
+   <set-attr-value name="qx" value="0.0"/>  
+   <set-attr-value name="qy" value="0.64421769"/>  
+   <set-attr-value name="qz" value="0.0"/> 
+
+</instanciate>   
+ 
+
+
+
+
+
+</world>
+
+
+
+
+
+
+
+
